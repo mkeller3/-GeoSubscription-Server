@@ -1,4 +1,8 @@
-# GeoSubscription-Server
+# geoSubscription-Server
+### About
+The geoSubscription-Server is a python based web-service that can take in a variety of geogrpahic data. Each dataset is imported into a postgreSQL table. These datasets can then be filtered by eitheir attirbutes or geographies by the user. After the data is imported into a table we can perform a variety of different analytics on each table that are listed below. In return they will get a variety of tables generated inside postgreSQL.
+
+### Tool Services
 Inputs
 * ArcGIS
   * FeatureService
@@ -13,9 +17,9 @@ Input Filters
 * Column
 * Geographic
 
-Builders
+Analytics
 * Buffer
-* Count Within(Your datasets, pre defined)
+* Count Within(Your datasets, pre-defined)
 * Intersect
 * Select Within
 * Bounding Box
