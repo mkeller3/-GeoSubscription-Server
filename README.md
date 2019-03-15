@@ -20,8 +20,8 @@ Input Filters
 Analytics
 * Buffer
 * Count Within(Your datasets, pre-defined)
-* Intersect
-* Select Within
+* Intersect(Your datasets, pre-defined)
+* Select Within(Your datasets, pre-defined)
 * Bounding Box
 * Concave Hull
 * Dissolve
@@ -32,7 +32,7 @@ Analytics
 * Point to Point Distance
 * Select outside
 * Column Calculations
-* Join to Table
+* Join to Table(Your datasets, pre-defined)
 * Add XY Values
 * Union
 * Merge Tables
